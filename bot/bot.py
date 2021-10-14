@@ -7,7 +7,7 @@ from aiogram.utils.executor import start_webhook
 from bot.settings import (BOT_TOKEN, HEROKU_APP_NAME,
                       WEBHOOK_URL, WEBHOOK_PATH,
                       WEBAPP_HOST, WEBAPP_PORT)
-from get_info import get_info
+from bot.get_info import get_info
 from time import sleep
 
 bot = Bot(token=BOT_TOKEN)

@@ -1,14 +1,13 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = '2083748158:AAEsXvpl5mvieEQTshNnyv2rN21tLf9-PUY'
 
 if not BOT_TOKEN:
     print('You have forgot to set BOT_TOKEN')
     quit()
 
-HEROKU_APP_NAME = os.getenv('HEROKU_APP_NAME')
+HEROKU_APP_NAME = 'aiogram-example1'
 
 
 # webhook settings

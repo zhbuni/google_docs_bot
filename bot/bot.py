@@ -4,7 +4,7 @@ from aiogram import Bot, types
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils.executor import start_webhook
-from settings import (BOT_TOKEN, HEROKU_APP_NAME,
+from bot.settings import (BOT_TOKEN, HEROKU_APP_NAME,
                       WEBHOOK_URL, WEBHOOK_PATH,
                       WEBAPP_HOST, WEBAPP_PORT)
 from get_info import get_info
